@@ -1,4 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: FerroRosso;
+    src: url(./fonts/FerroRosso.ttf);
+}
+
+
+
+body {
+    background-color: red;
+    background-image: url(background.jpg);
+}
+
 button {
     color: rebeccapurple;
     font-size: large;
+}
+
+#header {
+    background-color: red;
+    font-size: 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: FerroRosso;
+}
+
+#bio_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    
+}
+
+
+#bio {
+    
+    
+    border:groove 10px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: rgb(100, 2, 2);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+#hours_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+#hours {
+    justify-content: center;
+    border:groove 10px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: rgb(100, 2, 2);
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+
+#location_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+#location {
+    justify-content: center;
+    border:groove 10px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: rgb(100, 2, 2);
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+
+    
 }
