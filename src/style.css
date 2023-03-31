@@ -16,10 +16,7 @@ body {
     background-image: url(background.jpg);
 }
 
-button {
-    color: rebeccapurple;
-    font-size: large;
-}
+
 
 #header {
     background-color: red;
@@ -29,6 +26,28 @@ button {
     justify-content: center;
     font-family: FerroRosso;
 }
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(212, 0, 0);
+    font-family: FerroRosso;
+    font-size: 30px;
+}
+
+#home {
+margin-right: 10px;
+}
+
+#recipes {
+margin-right: 10px;;
+}
+
+#contact {
+margin-right: 10px;
+}
+
 
 #bio_container {
     display: flex;
@@ -40,7 +59,6 @@ button {
 
 
 #bio {
-    
     
     border:groove 10px;
     border-radius: 10px;

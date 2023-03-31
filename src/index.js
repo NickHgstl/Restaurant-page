@@ -1,5 +1,9 @@
 import './style.css';
 
+
+
+
+
 console.log('hi');
 let div = document.querySelector('#content');
 
@@ -14,7 +18,7 @@ function header() {
 function navBar() {
     let navBar = document.createElement("div");
     div.append(navBar);
-    navBar.id = "navBar";
+    navBar.id = "navbar";
 
     let home = document.createElement("div");
     navBar.append(home);
@@ -25,6 +29,16 @@ function navBar() {
     navBar.append(recipes);
     recipes.id = "recipes";
     recipes.textContent = "Recipes";
+
+    let contact = document.createElement("div");
+    navBar.append(contact);
+    contact.id = "contact";
+    contact.textContent = "Contact";
+    document.getElementById('contact').onclick =function() {
+       document.location.reload();
+    }
+
+    
 }
 
 function bio () {
@@ -78,7 +92,7 @@ function location() {
 
 
 header();
+navBar();
 bio();
 hours();
 location();
-navBar();
