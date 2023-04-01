@@ -1,6 +1,7 @@
 import './style.css';
 import  home  from "./home.js";   
 import recipes from './recipes.js'
+import contact from './contact.js'
 
 let div = document.querySelector('#content');
 
@@ -27,7 +28,7 @@ function navBar() {
     navBar.append(recipes);
     recipes.id = "recipes";
     recipes.className = "navitem"
-    recipes.textContent = "Recipes";
+    recipes.textContent = "Menu";
 
     let contact = document.createElement("div");
     navBar.append(contact);
@@ -53,6 +54,13 @@ function switchNavItems() {
             div.removeChild(child.nextSibling);
            }
             recipes();
+    })
+
+    item[2].addEventListener('click', function(e){
+        while (child.nextSibling) {
+            div.removeChild(child.nextSibling);
+           }
+            contact();
     })
     
     
@@ -83,6 +91,7 @@ function switchNavItems() {
 header();
 navBar();
 switchNavItems();
+recipes();
 
 
 
