@@ -91,7 +91,7 @@ function switchNavItems() {
 header();
 navBar();
 switchNavItems();
-recipes();
+home();
 
 
 
