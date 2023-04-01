@@ -22,7 +22,7 @@ export default function recipes(){
             recipe1.className = "recipes_content"
             recipe1Container.append(recipe1);
             recipe1.textContent = "Here at Ferrari's Fantastic Failures we don't like losing \
-            so witness this bang of a dish. (Schumacher crashed out and lost the race)";
+            so witness this bang of a dish. (Schumacher crashed out and lost the race.)";
 
             let image = document.createElement("img");
             image.id = "recipe1_image"
@@ -47,7 +47,7 @@ export default function recipes(){
         recipe2.className = "recipes_content"
         recipe2Container.append(recipe2);
         recipe2.textContent = "What do you do if you're not the fastest but still wanna start on pole?\
-        Just park it diagonally";
+        Just park it diagonally.";
 
         let image = document.createElement("img");
         image.id = "recipe2_image"
@@ -71,7 +71,7 @@ export default function recipes(){
         recipe3.id = "recipe3";
         recipe3.className = "recipes_content"
         recipe3Container.append(recipe3);
-        recipe3.textContent = "For if you're feeling really spicy";
+        recipe3.textContent = "For if you're feeling really spicy.";
 
         let image = document.createElement("img");
         image.id = "recipe3_image"
@@ -97,7 +97,7 @@ export default function recipes(){
         recipe4Container.append(recipe4);
         recipe4.textContent = "instead of pittin for dry tyres we went out of our way \
         and left the inters out to season a little bit for extra flavor just so you can experience this unique\
-        experience";
+        dish.";
 
         let image = document.createElement("img");
         image.id = "recipe4_image"

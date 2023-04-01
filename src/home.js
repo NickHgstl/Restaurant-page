@@ -22,7 +22,7 @@ export default function home(){
         bioContainer.append(bio);
         bio.id = "bio_content";
         bio.textContent = "Here at Ferrari's Fantastic Failures we are dedicated to providing the \
-        integrity of the classic Ferrari formula: Speed, Failure and an exquisite lack of direction";
+        integrity of the classic Ferrari formula: Speed, Failure and an exquisite lack of direction.";
     }
 
     function hours() {
@@ -40,7 +40,7 @@ export default function home(){
         let hours = document.createElement("div");
         hours.id = "hours_content";
         hoursContainer.append(hours)
-        hours.textContent= "whenever we aren't pitting Charles  ";
+        hours.textContent= "whenever we aren't pitting Charles.";
 
         
     }
@@ -60,7 +60,7 @@ export default function home(){
         let location = document.createElement("div");
         location.id = "location_content";
         locationContainer.append(location);
-        location.textContent= "we don't even have hours and you think we have a \"location\"";
+        location.textContent= "we don't even have hours and you think we have a \"location\".";
 
         
     }

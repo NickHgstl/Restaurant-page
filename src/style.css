@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: FerroRosso;
+    align-self: center;
 }
 
 #navbar {
@@ -159,6 +160,7 @@ body {
     border-radius: 10px;
     color: white;
     width: 50%;
+    margin-bottom: 500px;
 }
 
 #contact_header {
